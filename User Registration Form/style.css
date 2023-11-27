@@ -1,0 +1,113 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url("background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    :root {
+        --bg-color: #1f242d;
+        --second-bg-color: #323946;
+        --text-color: #fff;
+        --main-color: #0ef;
+        --bg2-color: #250821;
+        --big-font: 2.5rem;
+        --norma-font: 2rem;
+        --neno-box-shadow: 0 0 .5rem #12f7ff;
+        --h2-font: 3rem;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(235, 14, 14, 0.1);
+      width: 400px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 8px;
+      color: #555;
+    }
+
+    input {
+      padding: 10px;
+      margin-bottom: 16px;
+      border: 1px solid #030303;
+      border-radius: 4px;
+    }
+
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    .social-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+
+    .linkedin-icon {
+      background-color: #0077b5;
+      color: #fff;
+    }
+
+    .google-icon {
+      background-color: #db4437;
+      color: #fff;
+    }
+    button{
+        margin-top: 12px;
+        display: inline-block;
+        padding: 1rem 2.8rem;
+        background: var(--main-color);
+        border-radius: 4rem;
+        box-shadow: 0 0 1rem var(--main-color);
+        letter-spacing: .1rem;
+        font-weight: 600;
+        transition: .5s ease;
+        box-shadow: none;
+    }
+    button:hover{
+        box-shadow: none;
+
+    }
+ .social-icons {
+    font-size: 3rem; 
+    cursor: pointer;
+ }
+ .facebook{
+    color: var(--main-color);
+ }
+ .linkdin{
+    color: blue;
+    border-radius: 50%;
+ }
+ .google{
+    color: rgb(56, 87, 10);
+ }
